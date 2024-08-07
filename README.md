@@ -1,5 +1,5 @@
 <div align="center">
-  <img height="156" src="./public/houseform-icon.png" />
+  <img height="156" src="./public/homing.jpeg" />
 
   <h1 style="margin-top:8px;">Houseform</h1>
 
@@ -14,13 +14,13 @@ Real world asset (RWA) tokenization marks a transformative paradigm shift in tra
 
 ## What is Houseform
 
-Houseform is a platform to invest in real estate projects through fractional ownership.
+Homing is a platform to invest in real estate projects through fractional ownership.
 
 Investors can participate in funding real world building projects and acquire fractional ownership through the purchase of tokenized shares. These shares, represented as NFTs on the blockchain, entitle investors to a percentage of the project value upon successful completion and sale.
 
 ## How it works
 
-Projects are listed on Houseform with the corresponding data, like the amount of shares available, the goal amount or investment expected profit.
+Projects are listed on Homing with the corresponding data, like the amount of shares available, the goal amount or investment expected profit.
 
 When investors decide to buy the tokenized shares of a project, they get an amount of KIP37 NFTs equal to the number of shares they bought. These shares represent the ownership of a fraction of the building and can be kept or traded in the open market.
 
@@ -55,8 +55,8 @@ Investors, regardless of their geographic location, can engage in real estate in
 The architecture of the platform is based on:
 
 - Two smart contracts:
-  - HouseformManager: the main contract that handles the different phases of projects lifecycle
-  - HouseformShare: a NFT contract that comply with KIP37 NFT standard and represents projects shares
+  - HomingManager: the main contract that handles the different phases of projects lifecycle
+  - HomingShare: a NFT contract that comply with KIP37 NFT standard and represents projects shares
 - A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on klaytn testnet.
 
 ## Useful links
