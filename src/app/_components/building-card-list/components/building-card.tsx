@@ -166,7 +166,7 @@ export const BuildingCard = function BuildingCard({
 							<Statistic
 								title={'Goal amount'}
 								value={Math.round(TokenUtils.toNumber(project.goalAmount, 18))}
-								suffix={'KLAY'}
+								suffix={'HBAR'}
 							/>
 						</div>
 
@@ -195,7 +195,7 @@ export const BuildingCard = function BuildingCard({
 										<div style={{ width: '100%', display: 'flex' }}>
 											<div style={{}}>
 												<Form.Item label={'Sale amount'} name={'saleAmount'} rules={[{ required: true }]}>
-													<InputNumber min={0} addonAfter={'KLAY'} />
+													<InputNumber min={0} addonAfter={'HBAR'} />
 												</Form.Item>
 											</div>
 

@@ -246,7 +246,7 @@ export const CreateButton = function CreateButton({ style }: { style?: React.CSS
 									style={{ width: '100%', marginBottom: 8 }}
 									rules={[{ required: true, message: 'Please input the goal amount' }]}
 								>
-									<InputNumber style={{ width: '100%' }} suffix={'KLAY'} />
+									<InputNumber style={{ width: '100%' }} suffix={'HBAR'} />
 								</Form.Item>
 
 								<Form.Item

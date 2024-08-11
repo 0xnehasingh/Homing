@@ -396,7 +396,7 @@ export default function ProjectPage({ params }: { params: { projectId: bigint } 
 									<Statistic
 										title="Current amount"
 										value={TokenUtils.toNumber(project.currentAmount, 18)}
-										suffix={' / ' + TokenUtils.toNumber(project.goalAmount, 18) + ' KLAY'}
+										suffix={' / ' + TokenUtils.toNumber(project.goalAmount, 18) + ' HBAR'}
 										className="mb-2"
 									/>
 									<motion.div
@@ -409,7 +409,7 @@ export default function ProjectPage({ params }: { params: { projectId: bigint } 
 								<Typography.Text type="secondary" className="block text-sm">
 									1 share = {Math.round(TokenUtils.toNumber(shareCost, 18))} KLAY (~
 									{Math.round(
-										(KlaytnConstants.NETWORK_DATA.general.klaytnPrice * TokenUtils.toNumber(project.goalAmount, 18)) /
+										(KlaytnConstants.NETWORK_DATA.general.HedraPrice * TokenUtils.toNumber(project.goalAmount, 18)) /
 											project.totalShares,
 									)}{' '}
 									USD)

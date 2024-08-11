@@ -127,7 +127,7 @@ export const InvestmentCard = function InvestmentCard({
 								title={'Value'}
 								value={TokenUtils.toNumber(shareValue * BigInt(investment.shares), 18)}
 								valueStyle={{ color: '#1677FF' }}
-								suffix={'KLAY'}
+								suffix={'HBAR'}
 								style={{ marginRight: token.margin }}
 							/>
 

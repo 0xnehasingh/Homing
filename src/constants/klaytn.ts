@@ -3,7 +3,7 @@ export type NetworkType = 'testnet' | 'mainnet';
 export const NETWORK_DATA_MAP = {
 	mainnet: {
 		general: {
-			klaytnPrice: 0.15,
+			HedraPrice: 0.15,
 		},
 		contracts: {
 			HouseformManager: {
@@ -16,7 +16,7 @@ export const NETWORK_DATA_MAP = {
 	},
 	testnet: {
 		general: {
-			klaytnPrice: 0.15,
+			HedraPrice: 0.15,
 		},
 		contracts: {
 			HouseformManager: {

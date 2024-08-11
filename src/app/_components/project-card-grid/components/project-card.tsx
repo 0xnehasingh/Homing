@@ -158,7 +158,7 @@ export const ProjectCard = function ProjectCard({
 							{TokenUtils.toNumber(project.currentAmount, 18) +
 								' / ' +
 								TokenUtils.toNumber(project.goalAmount, 18) +
-								' KLAY'}
+								' HBAR'}
 						</Typography.Text>
 						<Progress
 							percent={(project.currentShares / project.totalShares) * 100}
@@ -171,9 +171,9 @@ export const ProjectCard = function ProjectCard({
 					<Typography.Text type={'secondary'} style={{ marginTop: '16px', color: '#5a5a5a' }}>
 						{'1 share = ' +
 							Math.round(TokenUtils.toNumber(shareCost, 18)) +
-							' KLAY (~' +
+							' HBAR (~' +
 							Math.round(
-								(KlaytnConstants.NETWORK_DATA.general.klaytnPrice * TokenUtils.toNumber(project.goalAmount, 18)) /
+								(KlaytnConstants.NETWORK_DATA.general.HedraPrice * TokenUtils.toNumber(project.goalAmount, 18)) /
 									project.totalShares,
 							) +
 							' USD)'}
