@@ -7,6 +7,7 @@
 
 ## Inspiration
 
+
 Our project is a decentralized platform that enables fractional ownership of real estate through tokenization. By utilizing Hedera Blockchain smart contracts and ERC1155 tokens, we allow users to invest in real estate projects, track their investments, and earn returns. The platform ensures transparency, security, and ease of investment in real-world assets. Key features include project creation, share purchasing, and automated profit distribution. Our goal is to democratize real estate investment, making it accessible to a broader audience while leveraging blockchain’s immutability and transparency.
 
 
@@ -21,7 +22,7 @@ Investors can participate in funding real world building projects and acquire fr
 
 Projects are listed on Homing with the corresponding data, like the amount of shares available, the goal amount or investment expected profit.
 
-When investors decide to buy the tokenized shares of a project, they get an amount of KIP37 NFTs equal to the number of shares they bought. These shares represent the ownership of a fraction of the building and can be kept or traded in the open market.
+When investors decide to buy the tokenized shares of a project, they get an amount of ERC1155 tokens equal to the number of shares they bought. These shares represent the ownership of a fraction of the building and can be kept or traded in the open market.
 
 When the project is completed and the building has been sold, project shares can be redeemed by burning the corresponding NFT and obtaining an amount based on how much profitable was the selling of the construction.
 
@@ -72,7 +73,7 @@ The architecture of the platform is based on:
 
 - Two smart contracts:
   - HomingManager: the main contract that handles the different phases of projects lifecycle
-  - HomingShare: a NFT contract that comply with KIP37 NFT standard and represents projects shares
+  - HomingShare: a NFT contract that comply with ERC1155 tokens standard and represents projects shares
 - A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on Hedera testnet.
 
 ## Useful links
@@ -80,4 +81,3 @@ The architecture of the platform is based on:
 - Contracts (Deployed on Hedera testnet):
   - HouseformManager: https://hashscan.io/testnet/contract/0.0.4725481
   - HouseformShare: https://hashscan.io/testnet/contract/0.0.4725482
-# houseform_nft
