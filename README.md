@@ -1,8 +1,5 @@
 <div align="center">
   <img height="156" src="./public/homing.jpeg" />
-
-  <h1 style="margin-top:8px;">Houseform</h1>
-
   <p>
     <strong>Tokenize real estate investments providing opportunities for modern ownership.</strong>
   </p>
