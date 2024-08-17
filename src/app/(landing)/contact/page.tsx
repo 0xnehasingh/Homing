@@ -4,10 +4,6 @@ import { useForm, ValidationError } from '@formspree/react';
 
 const ContactUs: React.FC = () => {
 	const [state, handleSubmit] = useForm('xqazlppj');
-	if (state.succeeded) {
-		return <p>Thanks for joining!</p>;
-	}
-
 	const [form, setForm] = useState({
 		firstName: '',
 		lastName: '',
@@ -15,6 +11,9 @@ const ContactUs: React.FC = () => {
 		subject: '',
 		message: '',
 	});
+	if (state.succeeded) {
+		return <p>Thanks for joining!</p>;
+	}
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 		const { name, value } = e.target;
