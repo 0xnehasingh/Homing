@@ -9,7 +9,7 @@
 
 Real world asset (RWA) tokenization marks a transformative paradigm shift in traditional finance by digitizing physical assets and representing them as blockchain-based tokens. This innovation enables fractional ownership, increased liquidity, and enhanced accessibility for investors.
 
-## What is Houseform
+## What is Homing
 
 Homing is a platform to invest in real estate projects through fractional ownership.
 
@@ -54,7 +54,7 @@ The architecture of the platform is based on:
 - Two smart contracts:
   - HomingManager: the main contract that handles the different phases of projects lifecycle
   - HomingShare: a NFT contract that comply with KIP37 NFT standard and represents projects shares
-- A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on klaytn testnet.
+- A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on ### Hedera testnet.
 
 ## Useful links
 
