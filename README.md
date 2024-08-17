@@ -54,7 +54,7 @@ The architecture of the platform is based on:
 - Two smart contracts:
   - HomingManager: the main contract that handles the different phases of projects lifecycle
   - HomingShare: a NFT contract that comply with KIP37 NFT standard and represents projects shares
-- A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on ### Hedera testnet.
+- A web application made with nextjs and wagmi libraries to interact with the smart contracts deployed on Hedera testnet.
 
 ## Useful links
 
