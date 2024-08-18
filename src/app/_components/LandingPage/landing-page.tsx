@@ -25,11 +25,11 @@ export const Header: React.FC = () => (
 		<div className="container mx-auto py-4 px-6 flex justify-between items-center">
 			<div className="flex items-center">
 				<img
-					src="/api/placeholder/50/50"
+					src="/homing.svg"
 					alt="GoHomes Logo"
-					className="w-10 h-10 mr-3 rounded-full border-2 border-blue-600"
+					className="w-40"
+					style={{marginLeft: -40}}
 				/>
-				<h1 className="text-3xl font-extrabold text-blue-700 tracking-tight">GoHomes</h1>
 			</div>
 			<nav>
 				<ul className="flex space-x-8 text-lg">
@@ -105,7 +105,7 @@ const TopListedProperties: React.FC = () => (
 				{[1, 2, 3].map((i) => (
 					<motion.div key={i} whileHover={{ scale: 1.03 }} className="bg-white rounded-lg shadow-lg overflow-hidden">
 						<img
-							src={`/api/placeholder/400/300?text=Property ${i}`}
+							src={`/house/house${i}.png`}
 							alt={`Property ${i}`}
 							className="w-full h-48 object-cover"
 						/>

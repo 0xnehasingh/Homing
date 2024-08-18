@@ -37,7 +37,7 @@ export const Application = function Application({ children }: React.PropsWithChi
 					}}
 				>
 					<div style={{ display: 'flex', cursor: 'pointer' }} onClick={() => router.push('/')}>
-						<img src={''} height={32} alt={'houseform logo'} />
+						<img src="/homing.svg" alt={'houseform logo'} className='w-40'/>
 					</div>
 
 					<div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
