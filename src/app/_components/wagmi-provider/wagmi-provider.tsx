@@ -6,28 +6,26 @@ import { Chain } from 'wagmi/chains';
 import { MetaMaskConnector } from 'wagmi/connectors/metaMask';
 import { publicProvider } from 'wagmi/providers/public';
 
-// https://github.com/klaytn/awesome-klaytn
 // https://wagmi.sh/react/getting-started
 // https://wagmi.sh/examples/connect-wallet
 // https://docs.walletconnect.com/web3modal/nextjs/about
 
-// Custom klaytn testnet
 const klaytnTestnet = {
-	id: 1_001,
-	name: 'Klaytn Testnet',
-	network: 'klaytn',
+	id: 296,
+	name: 'Hedera Testnet',
+	network: 'Hedera',
 	nativeCurrency: {
 		decimals: 18,
-		name: 'Klaytn',
-		symbol: 'KLAY',
+		name: 'HBAR',
+		symbol: 'HBAR',
 	},
 	rpcUrls: {
-		default: { http: ['https://public-en-baobab.klaytn.net/'] },
-		public: { http: ['https://public-en-baobab.klaytn.net/'] },
+		default: { http: ['https://testnet.hashio.io/api'] },
+		public: { http: ['https://testnet.hashio.io/api'] },
 	},
 	blockExplorers: {
-		etherscan: { name: 'KlaytnScope', url: 'https://baobab.scope.klaytn.com/' },
-		default: { name: 'KlaytnScope', url: 'https://baobab.scope.klaytn.com/' },
+		etherscan: { name: 'hashscan', url: 'https://hashscan.io/testnet' },
+		default: { name: 'hashscan', url: 'https://hashscan.io/testnet' },
 	},
 } as const satisfies Chain;
 
