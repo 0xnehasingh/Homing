@@ -44,7 +44,7 @@ export const Header: React.FC = () => (
 						</a>
 					</li>
 					<li>
-						<a href="#" className="text-gray-800 hover:text-blue-700 transition-colors duration-300">
+						<a href="https://docs.google.com/document/d/1mE_443gpucNe4IdUwvRCp50adYWi6qSejKlWJY7j85k/edit" className="text-gray-800 hover:text-blue-700 transition-colors duration-300">
 							White Paper
 						</a>
 					</li>
