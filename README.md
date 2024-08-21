@@ -1,13 +1,15 @@
 <div align="center">
   <img height="156" src="./public/homing.jpeg" />
   <p>
-    <strong>Tokenize real estate investments providing opportunities for modern ownership.</strong>
+    <strong>Decentralized Real World Asset Investment Platform</strong>
   </p>
 </div>
 
 ## Inspiration
 
-Real world asset (RWA) tokenization marks a transformative paradigm shift in traditional finance by digitizing physical assets and representing them as blockchain-based tokens. This innovation enables fractional ownership, increased liquidity, and enhanced accessibility for investors.
+Our project is a decentralized platform that enables fractional ownership of real estate through tokenization. By utilizing Hedera Blockchain smart contracts and ERC1155 tokens, we allow users to invest in real estate projects, track their investments, and earn returns. The platform ensures transparency, security, and ease of investment in real-world assets. Key features include project creation, share purchasing, and automated profit distribution. Our goal is to democratize real estate investment, making it accessible to a broader audience while leveraging blockchain’s immutability and transparency.
+
+
 
 ## What is Homing
 
@@ -28,6 +30,10 @@ In the same way, builders can list projects, get funded to build/manage them and
 ## Main features
 
 ### Tokenization of real world assets
+<img width="617" alt="Screenshot 2024-08-21 at 10 42 05 PM" src="https://github.com/user-attachments/assets/6e226d70-9082-464c-80ac-1f227b9d0f4d">
+
+
+
 
 Facilitate the tokenization of real world properties, transforming them into digital tokens on a blockchain. This process enables fractional ownership, providing investors with the opportunity to acquire shares in tangible assets traditionally considered out of reach.
 
@@ -46,6 +52,19 @@ The platform serves as a crowdfunding mechanism for construction projects, allow
 ### Global investment in local real estate
 
 Investors, regardless of their geographic location, can engage in real estate investments worldwide. Houseform breaks down geographical barriers, providing global investors with the opportunity to support and benefit from local construction projects, fostering a more interconnected and accessible real estate market.
+
+
+## Demo Video:
+YouTube video link: -  https://drive.google.com/drive/folders/1l3j4_8vKBcuEo4b43POGLzmuVLxxXOi0?usp=sharing
+
+
+## Technical Aspects
+
+<img width="471" alt="Screenshot 2024-08-21 at 10 40 45 PM" src="https://github.com/user-attachments/assets/6af40ace-797a-44da-ac9e-22a6f3fb7f08">
+
+<img width="578" alt="Screenshot 2024-08-21 at 10 41 23 PM" src="https://github.com/user-attachments/assets/9d4f9164-4759-4d9c-ab9d-4c5a1b163161">
+
+
 
 ## Architecture
 
