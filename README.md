@@ -61,7 +61,8 @@ YouTube video link: -  https://drive.google.com/drive/folders/1l3j4_8vKBcuEo4b43
 
 ## Technical Aspects
 
-<img width="471" alt="Screenshot 2024-08-21 at 10 40 45 PM" src="![image](https://github.com/user-attachments/assets/96fe2454-613b-4949-b9d1-28f7cc839553)
+<img width="471" alt="Screenshot 2024-08-21 at 10 40 45 PM" src="https://github.com/user-attachments/assets/dd8c5bce-5415-4257-b8aa-ea9af13cd594">
+
 ">
 
 <img width="578" alt="Screenshot 2024-08-21 at 10 41 23 PM" src="https://github.com/user-attachments/assets/9d4f9164-4759-4d9c-ab9d-4c5a1b163161">
